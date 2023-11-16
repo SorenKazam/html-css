@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Aumente e diminua a pagina</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Formas de reproduzir audio em HTML5</p>
+    <audio src="media/Speak The Truth - Go By Ocean _ Ryan McCaffrey.mp3" controls></audio>
+    <audio preload="metadata" controls>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg">
+        <p>Navegador nao compativel com reprodutor de audio! <a href="media/guanacast-33.mp3" target="_blank">Baixe o arquivo aqui.</a></p>
+    </audio>
+    <h1>VIDEOS!</h1>
+    <video poster="media/video-capa-720.jpg" width="900" autoplay muted loop>
+        <source src="media/Cafe-Wide-720.mp4" type="video/mp4">
+        <p>O seu browser nao conseguiu reproduzir o video!</p>
+    </video>
+    <h1>Videos do youtube no website!</h1>
+    <iframe width="500" height="315" src="https://www.youtube-nocookie.com/embed/3hng-hmSv2Y?si=jOl-WvFY5pbkvNrK&controls=0&mute=1&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

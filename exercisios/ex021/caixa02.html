@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #727272;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: #292929;
+            padding: 3px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.300);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: normal;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.300);
+        }
+
+        article {
+            background-color: white;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #b6b6b6;
+            padding: 5px;
+        }
+
+        article > p {
+            font-family: serif;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        article > div {
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+
+        div > img {
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom bottom;
+            border-radius: 5px;
+        }
+
+        .links > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+            font-weight: normal;
+        }
+
+        .links > a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .links > a::before {
+            content: "☞ ";
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site de Noticias do Soren</h1>
+        <nav>
+            <a href="#" target="_blank">Inicio</a>
+            <a href="#" target="_blank">Noticias</a>
+            <a href="#" target="_blank">Contactos</a>
+            <a href="#" target="_blank">Newsletter</a>
+            <a href="#" target="_blank">SiteMap</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <span>Sports Politica Tecnologia</span>
+        </section>
+        <section id="noticias">
+            <article>
+                <div>
+                    <img src="lisboa-720.webp" alt="Imagem da noticia">
+                </div>
+                <h2>Noticia sobre Portugal</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi odio magnam labore fugiat beatae accusantium neque sit vel repellendus dolore, ex veniam illum ipsam eum accusamus quisquam minima est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque cum consectetur. Eius inventore omnis iure porro cupiditate maiores nihil consequatur. Dolorem dignissimos necessitatibus, commodi labore quisquam molestiae vel delectus.</p>
+                <aside>
+                    <span>Artigo escrito por Tiago Guerreiro</span>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <span>Desenvolvido por Tiago Guerreiro</span>
+        <section class="links">
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Github</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </section>
+    </footer>
+</body>
+</html>
