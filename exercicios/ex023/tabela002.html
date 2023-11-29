@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        td.single {
+            text-align: center;
+            background-color: rgb(221, 221, 221);
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Uso de tabelas grandes</h1>
+    <p>Estados do Brasil</p>
+    <!-- 
+        Anatomia para tabelas grandes
+        TABLE
+            TABLE HEAD <thead> / th = table header
+                TR, TD, TH
+            TABLE BODY <tbody>
+                TR, TD, TH
+            TABLE FOOTER <tfoot>
+                TR, TD, TH
+        Nao e necessario ter o HEAD ou FOOTER numa tabela, basta apenas ter o BODY 
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Populacao</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="single">...</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
