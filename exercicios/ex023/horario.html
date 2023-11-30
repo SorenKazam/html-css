@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario do Soren</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 3px 15px 3px 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightslategrey;
+            color: white;
+        }
+
+        .vazio {
+            background-color: rgb(180, 191, 202);
+        }
+
+        .cp {
+            background-color: yellow;
+        }
+
+        .clc {
+            background-color: rgb(180, 226, 255);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Horario do Soren</h1>
+        <p>Curso EFA</p>
+        <table>
+            <tr>
+                <td colspan="4">2023-2024</td>
+                <td colspan="2">TURMA 1</td>
+                <td>percurso B</td>
+            </tr>
+            <tr>
+                <th colspan="2">Hora</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+            </tr>
+            <tr>
+                <td>19:45</td>
+                <td>20:15</td>
+                <td class="vazio"></td>
+                <td class="vazio"></td>
+                <td class="cp">PRA</td>
+                <td class="vazio"></td>
+                <td class="cp">CP 5</td>
+            </tr>
+            <tr>
+                <td>20:15</td>
+                <td>21:15</td>
+                <td class="vazio"></td>
+                <td class="vazio"></td>
+                <td class="cp">CP 5</td>
+                <td class="vazio"></td>
+                <td class="cp">CP 5</td>
+            </tr>
+            <tr class="vazio">
+                <td>21:15</td>
+                <td>21:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>21:30</td>
+                <td>22:30</td>
+                <td class="cp">CP 5</td>
+                <td class="clc"> CLC 1</td>
+                <td class="cp">CP 5</td>
+                <td class="clc">CLC 1</td>
+                <td class="clc">CLC 1</td>
+            </tr>
+            <tr>
+                <td>22:30</td>
+                <td>23:30</td>
+                <td class="cp">CP 5</td>
+                <td class="clc">CLC 1</td>
+                <td class="cp">CP 5</td>
+                <td class="clc">CLC 1</td>
+                <td class="clc">CLC 1</td>
+            </tr>
+            <tr>
+                <td colspan="7" class="cp">Sala 213</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>01:00:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">UFCD</td>
+                <td>TEMPOS/SEM</td>
+                <td>HORAS/SEM</td>
+                <td colspan="2">FORMADOR</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="clc">CLC 1</td>
+                <td>6</td>
+                <td>06:00:00</td>
+                <td colspan="2">Ana Maria Belo</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="cp">CP 5</td>
+                <td>7</td>
+                <td>07:00:00</td>
+                <td colspan="2">Luis Miguel</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="cp">PRA</td>
+                <td>1</td>
+                <td>01:00:00</td>
+                <td colspan="2">Herminio Castro</td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
