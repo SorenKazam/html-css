@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        th, td {
+            text-align: center;
+            border: 1px solid black;
+            padding: 3px 25px 3px 25px;
+        }
+
+        thead > tr > th {
+            background-color: lightslategray;
+            color: white;
+        }
+
+        .step {
+            background-color: lightslategrey;
+            color: white;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgb(211, 211, 211);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Receita de crepes da Joji</h1>
+    <p>So porque sim</p>
+    <table>
+        <caption>Lista de ingredientes dos crepes</caption>
+        <thead>
+            <tr>
+                <th scope="col">Ingrediente</th>
+                <th scope="col">Quantidade (cups, spoons)</th>
+                <th scope="col">Quantidade (gramas)</th>
+                <th>Quantidade (Oz)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ovo</td>
+                <td colspan="3">1</td>
+            </tr>
+            <tr>
+                <td>Açucar</td>
+                <td>1/4 cup</td>
+                <td>32g</td>
+                <td>1.12Oz</td>
+            </tr>
+            <tr>
+                <td>Sal</td>
+                <td colspan="3">1 pinch (pitada)</td>
+            </tr>
+            <tr>
+                <td>Leite</td>
+                <td>1/2 cup</td>
+                <td>64g</td>
+                <td>2.26Oz</td>
+            </tr>
+            <tr>
+                <td>Oleo</td>
+                <td>1.5 Tbsp (colher normal)</td>
+                <td>19.52g</td>
+                <td>0.69Oz</td>
+            </tr>
+            <tr>
+                <td>Vanilla</td>
+                <td>1 tsp (colher de chá)</td>
+                <td>5g</td>
+                <td>0.18Oz</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="step">Mix it</td>
+            </tr>
+            <tr>
+                <td>Farinha</td>
+                <td>1 cup</td>
+                <td>120g</td>
+                <td>4.23Oz</td>
+            </tr>
+            <tr>
+                <td>Fermento</td>
+                <td>1 tsp (colher de chá)</td>
+                <td>5g</td>
+                <td>0.18Oz</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="step">Mix it</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
