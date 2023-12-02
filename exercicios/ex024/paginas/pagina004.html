@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Cadastre-se aqui</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            Nome:
+            <input type="text" name="nome" id="nome">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <a href="#" ondrag="arrastou()">Clique em mim</a>
+        <div id="saida"></div>
+
+    <script>
+         function arrastou() {
+            s = window.document.getElementById('saida')
+            s.innerHTML += '<p>Arrastado!</p>'
+         }
+    </script>
+</body>
+</html>
