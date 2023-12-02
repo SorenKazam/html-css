@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 500px;
+            border: 2px solid black;
+            box-shadow: 2px 5px 10px black;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faca uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tenetur sequi. Sit consequatur corporis veniam voluptatibus aliquid, blanditiis obcaecati iste ex mollitia cumque odio cum non quia quas dolor quos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, provident pariatur nobis id laboriosam velit perferendis quo, reiciendis eveniet deserunt numquam fugiat laudantium quam nulla ullam quod magnam distinctio praesentium! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis neque ad voluptas minima similique nobis nihil. Quidem pariatur minima laboriosam dicta sit, cum, illo, natus aliquid delectus nostrum minus officiis.</p>
+    <ul>
+        <li><a href="paginas/pagina001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="paginas/pagina002.html" target="frame">Segunda pagina</a></li>
+        <li><a href="paginas/pagina003.html" target="frame">Terceira pagina</a></li>
+    </ul>
+
+    <iframe src="paginas/pagina000.html" id="tela" name="frame"><p>Nav nao compativel</p></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tenetur sequi. Sit consequatur corporis veniam voluptatibus aliquid, blanditiis obcaecati iste ex mollitia cumque odio cum non quia quas dolor quos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, provident pariatur nobis id laboriosam velit perferendis quo, reiciendis eveniet deserunt numquam fugiat laudantium quam nulla ullam quod magnam distinctio praesentium! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis neque ad voluptas minima similique nobis nihil. Quidem pariatur minima laboriosam dicta sit, cum, illo, natus aliquid delectus nostrum minus officiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tenetur sequi. Sit consequatur corporis veniam voluptatibus aliquid, blanditiis obcaecati iste ex mollitia cumque odio cum non quia quas dolor quos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, provident pariatur nobis id laboriosam velit perferendis quo, reiciendis eveniet deserunt numquam fugiat laudantium quam nulla ullam quod magnam distinctio praesentium! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis neque ad voluptas minima similique nobis nihil. Quidem pariatur minima laboriosam dicta sit, cum, illo, natus aliquid delectus nostrum minus officiis.</p>
+</body>
+</html>
