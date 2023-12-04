@@ -14,10 +14,16 @@
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-    <form autocomplete="off">
-        <p>Nome: <input type="text" name="nome" id=""></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <form action="cadastro.php" autocomplete="off" method=" ">
+        <label for="inome">Nome: </label>
+        <input type="text" name="nome" id="inome">
+        <label for="isobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome" id="isobrenome">
+        <label for="iemail">Email: </label>
+        <input type="email" name="email" id="iemail">
+        <label for="ipass">Password: </label>
+        <input type="password" name="pass" id="ipass">
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
