@@ -1,5 +1,5 @@
 <img src="https://github.com/SorenKazam/html-css/assets/46906203/22987014-41ea-4c14-8575-3fcf99fe1f98" alt="Course cover"/>
-<h1>Diretorio de trabalhos</h1>
+<h1>🚀 Diretorio de trabalhos</h1>
 <p>Diretorio de trabalhos, exercicios e desafios do curso de HTML5 e CSS3 do <a href="https://www.youtube.com/@CursoemVideo" target="_blank">Curso em Video</a>!</p>
 <p>[ENG] This repository belongs to an HTML5 and CSS3 course on YouTube called "Curso em Video (course in video)" by professor Gustavo Guanabara! so everything in this repository will be in Portuguese.</p>
 <img src="https://github.com/SorenKazam/html-css/assets/46906203/1234b682-3538-4cc0-8849-d640bc11caf0" alt="Foto do professor Gustavo Guanabara"/>
@@ -7,7 +7,7 @@
 <a href="https://www.youtube.com/@CursoemVideo">Youtube</a><br>
 <a href="https://www.instagram.com/cursoemvideo/">Instagram</a>
 <hr />
-<h2>Links para as playlists do curso!</h2>
+<h2>📖 Links para as playlists do curso!</h2>
 <p>Vou anotando as que ja fiz, estou a fazer e as que ainda nao fiz.</p>
 ✅ Modulo 1/5: <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">Playlist</a><br>
 ✅ Modulo 2/5: <a href="https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s">Playlist</a><br>
@@ -15,7 +15,7 @@
 🔄️ Modulo 4/5: <a href="https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT">Playlist</a><br>
 ❌ Modulo 5/5: <a href="#">Playlist</a>
 <hr />
-<h2>Lista de Exercicios</h2>
+<h2>✏️ Lista de Exercicios</h2>
 <ul>
   <li><a href="https://sorenkazam.github.io/html-css/exercicios/ex001/index.html">ex001 - Primeiro exercicio</a></li>
   <li><a href="https://sorenkazam.github.io/html-css/exercicios/ex002/index.html">ex002 - Paragrafos e quebras de linha</a></li>
@@ -82,7 +82,7 @@
     <li><a href="https://sorenkazam.github.io/html-css/exercicios/ex025/form003.html">ex025/form003 - Teste de formulario</a></li>
   </ul>
 </ul>
-<h2>Lista de Desafios</h2>
+<h2>🥷🏻 Lista de Desafios</h2>
 <ul>
   <li>Modulo01</li>
   <ul>
