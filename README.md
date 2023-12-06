@@ -1,6 +1,11 @@
+<img src="https://github.com/SorenKazam/html-css/assets/46906203/22987014-41ea-4c14-8575-3fcf99fe1f98" alt="Course cover"/>
 <h1>Diretorio de trabalhos</h1>
 <p>Diretorio de trabalhos, exercicios e desafios do curso de HTML5 e CSS3 do <a href="https://www.youtube.com/@CursoemVideo" target="_blank">Curso em Video</a>!</p>
-<p>Curso e repositorio em lingua portuguesa!</p>
+<p>[ENG] This repository belongs to an HTML5 and CSS3 course on YouTube called "Curso em Video (course in video)" by professor Gustavo Guanabara! so everything in this repository will be in Portuguese.</p>
+<img src="https://github.com/SorenKazam/html-css/assets/46906203/1234b682-3538-4cc0-8849-d640bc11caf0" alt="Foto do professor Gustavo Guanabara"/>
+<p>Prof. Gustavo Guanabara</p>
+<a href="https://www.youtube.com/@CursoemVideo">Youtube</a><br>
+<a href="https://www.instagram.com/cursoemvideo/">Instagram</a>
 <hr />
 <h2>Links para as playlists do curso!</h2>
 <p>Vou anotando as que ja fiz, estou a fazer e as que ainda nao fiz.</p>
