@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name" value="Harry">
+        </p>
+        <p>
+            <label for="imedia">Media: </label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 - 10" step="0.1" value="5">
+        </p>
+        <p>
+            <label for="imes">Periodo letivo</label>
+            <input type="month" name="mes" id="imes" required value="2024-07" min="2020-12" max="2025-12">
+        </p>
+        <p>
+            <label for="idate">Data: </label>
+            <input type="date" name="date" id="idate" min="2023-12-06" max="2025-12-06" value="2023-12-06">
+        </p>
+        <p>
+            <label for="ihora">Hora: </label>
+            <input type="time" name="hora" id="ihora" value="15:20" min="09:00" max="20:00">
+            <p>Aberto das 09:00 as 20:00</p>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <div>
+        <hr style="border: 5px solid black; border-radius: 15px;">
+        <h2>Todos os inputs em HTML</h2>
+        <p>Copiei do W3SCHOOLS</p>
+        <p><input type="button"></p>
+        <p><input type="checkbox"></p>
+        <p><input type="color"></p>
+        <p><input type="date"></p>
+        <p><input type="datetime-local"></p>
+        <p><input type="email"></p>
+        <p><input type="file"></p>
+        <p><input type="hidden"></p>
+        <p><input type="image"></p>
+        <p><input type="month"></p>
+        <p><input type="number"></p>
+        <p><input type="password"></p>
+        <p><input type="radio"></p>
+        <p><input type="range"></p>
+        <p><input type="reset"></p>
+        <p><input type="search"></p>
+        <p><input type="submit"></p>
+        <p><input type="tel"></p>
+        <p><input type="text"></p>
+        <p><input type="time"></p>
+        <p><input type="url"></p>
+        <p><input type="week"></p>
+    </div>
+</body>
+</html>
