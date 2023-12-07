@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="" method="get" autocomplete="on">
+        <div>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="default" disabled selected>Escolha um estado</option>
+                <optgroup label="Regiao Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">Sao Paulo</option>
+                </optgroup>
+
+                <optgroup label="Regiao Nordeste">
+                    <option value="MA">Maranhao</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <label for="iprof">Profissao: </label>
+            <input type="text" name="prof" id="iprof" list="ilistprof" placeholder="Sua Profissao">
+            <datalist id="ilistprof">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvidor</option>
+                <option>Professor</option>
+            </datalist>
+        </div>
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" style="resize: none; width: 90vw; margin: auto;" placeholder="Escreva aqui a sua mensagem..."></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <form action="#" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Formulario</legend>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Seu nome completo" minlength="5" maxlength="100" required><br>
+            <label for="iemail">Email: </label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required><br>
+            <label for="imensagem">Mensagem: </label><br>
+            <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="Escreva aqui a sua mensagem..." required style="resize: vertical;"></textarea><br>
+            <input type="checkbox" name="aceitar" id="iaceitar">
+            <label for="iaceitar">Aceita os termos? </label><br><hr>
+            <span>Seu genero: </span>
+            <input type="radio" name="genero" id="igenmas" value="M">
+            <label for="igenmas">Homem</label></input>
+            <input type="radio" name="genero" id="igenfem" value="F">
+            <label for="igenfem">Mulher</label></input>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
