@@ -15,6 +15,10 @@
 🔄️ Modulo 4/5: <a href="https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT">Playlist</a><br>
 ❌ Modulo 5/5: <a href="#">Playlist</a>
 <hr />
+<h2>💡 Lista de Projetos</h2>
+<ul>
+
+</ul>
 <h2>✏️ Lista de Exercicios</h2>
 <ul>
   <li><a href="https://sorenkazam.github.io/html-css/exercicios/ex001/index.html">ex001 - Primeiro exercicio</a></li>
