@@ -22,8 +22,31 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
 }
 
-menu {
+span#iburger {
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#iburger:hover {
+    background-color: rgb(31, 31, 31);
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    transform: translateY(1px);
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+
+span#iburger:active {
+    background-color: rgba(31, 31, 31);
+    transform: translateY(5px);
+    transition: 0.1s;
+}
+
+menu {
+    display: none;
 }
 
 menu ul {
