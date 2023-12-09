@@ -16,9 +16,10 @@
 ❌ Modulo 5/5: <a href="#">Playlist</a>
 <hr />
 <h2>💡 Lista de Projetos</h2>
-<ul>
-
-</ul>
+🤖 Projeto Android: <a href="https://sorenkazam.github.io/projeto-android/">Ver</a><br>
+📃 Projeto Cordel: <a href="https://sorenkazam.github.io/projeto-cordel/">Ver</a><br>
+🌍 Projeto Social: <a href="https://sorenkazam.github.io/projeto-social/">Ver</a><br>
+🚪 Projeto Login: <a href="https://sorenkazam.github.io/projeto-login/">Ver</a><br>
 <h2>✏️ Lista de Exercicios</h2>
 <ul>
   <li><a href="https://sorenkazam.github.io/html-css/exercicios/ex001/index.html">ex001 - Primeiro exercicio</a></li>
