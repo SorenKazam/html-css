@@ -12,8 +12,8 @@
 ✅ Modulo 1/5: <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">Playlist</a><br>
 ✅ Modulo 2/5: <a href="https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s">Playlist</a><br>
 ✅ Modulo 3/5: <a href="https://www.youtube.com/watch?v=ofFgnDtn_1c&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ">Playlist</a><br>
-🔄️ Modulo 4/5: <a href="https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT">Playlist</a><br>
-❌ Modulo 5/5: <a href="#">Playlist</a>
+✅ Modulo 4/5: <a href="https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT">Playlist</a><br>
+🔄️ Modulo 5/5: <a href="#">Playlist</a>
 <h2>💡 Lista de Projetos</h2>
 🤖 Projeto Android: <a href="https://sorenkazam.github.io/projeto-android/">Ver</a><br>
 📃 Projeto Cordel: <a href="https://sorenkazam.github.io/projeto-cordel/">Ver</a><br>
